@@ -26,7 +26,7 @@ const getSdkPath = version => {
         fs.accessSync(SDK_PATH);
     } catch (error) {
         throw new Error(
-            `SugarCRM Mobile SDK '${version}' not found in '${SUGAR_MOBILE_SDK_HOME}' or you don't have access to.`
+            `Sugar Mobile SDK '${version}' not found in '${SUGAR_MOBILE_SDK_HOME}' or you don't have access to.`
         );
     }
 
