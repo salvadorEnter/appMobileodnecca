@@ -18,7 +18,7 @@
             "productName": "SugarCRMAccendo",
             "brandName": "SugarCRMAccendo",
             "appBuild": "1",
-            "appVersion": "0.1.0",
+            "appVersion": "0.2.0",
             "about": {
                 "privacy": "http://sugarcrmaccendo.com/mobile_privacy",
                 "tos": "http://sugarcrmaccendo.com/mobile_tos",
@@ -26,6 +26,15 @@
                 "supportEmail": "support@sugarcrmaccendo.com",
                 "copyrightText": "Copyright © 2018 SugarCRMAccendoCRM Inc. All Rights Reserved.",
                 "trademarkText": "SugarCRMAccendo and SugarCRMAccendoCRM are trademarks owned by SugarCRMAccendoCRM Inc. All other trademarks are the property of their respective owners."
+            },
+            "ui": {
+                "icons": {
+                    "actions": {
+                        "location": "icon icon-location-arrow",
+                        "location-view": "icon icon-map-marker",
+                        "module": "icon icon-table"
+                    }
+                }
             }
         }
     },
