@@ -1,0 +1,43 @@
+{
+    "defaults": {
+        "native": {
+            "android": {
+                "packageName": "com.sugarcrmaccendo.crm",
+                "appDownloadUrl": "",
+                "binaryName": "SugarCRMAccendo"
+            },
+            "ios": {
+                "bundleId": "com.sugarcrmaccendo.crm",
+                "appDownloadUrl": "",
+                "binaryName": "SugarCRMAccendo",
+                "teamId": ""
+            }
+        },
+        "jsConfig": {
+            "appName": "SugarCRMAccendo",
+            "productName": "SugarCRMAccendo",
+            "brandName": "SugarCRMAccendo",
+            "appBuild": "1",
+            "appVersion": "0.1.0",
+            "about": {
+                "privacy": "http://sugarcrmaccendo.com/mobile_privacy",
+                "tos": "http://sugarcrmaccendo.com/mobile_tos",
+                "support": "support.sugarcrmaccendo.com",
+                "supportEmail": "support@sugarcrmaccendo.com",
+                "copyrightText": "Copyright © 2018 SugarCRMAccendoCRM Inc. All Rights Reserved.",
+                "trademarkText": "SugarCRMAccendo and SugarCRMAccendoCRM are trademarks owned by SugarCRMAccendoCRM Inc. All other trademarks are the property of their respective owners."
+            }
+        }
+    },
+    "store": {
+        "native": {
+            "android": {
+                "signingKey": {
+                    "keystore": "",
+                    "storepass": "",
+                    "alias": ""
+                }
+            }
+        }
+    }
+}
