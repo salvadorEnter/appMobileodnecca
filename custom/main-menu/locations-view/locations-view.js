@@ -132,6 +132,16 @@ let LocationsView = customization.extend(NomadView, {
                                         urlImage='img/sugar_crm_icon.png';
                                     }
 
+                                    //Llenando sección con las estrellas
+                                    var estrellas=definicionCuenta.estrellas;
+                                    var contenidoEstrellas='';
+                                    if(estrellas=="" || estrellas ==0 || estrellas ==null){
+                                        contenidoEstrellas='<img style="" src="img/0_estrellas.png" width="100">';
+                                    }else{
+
+                                        contenidoEstrellas='<img style="" src="img/'+estrellas+'_estrellas.png" width="100">';
+                                    }
+
                                     var contenidoInfoWindow='<div class="tab" style="width: 330px;border-bottom: 1px solid #ddd">'+
                                     '<button class="tablinks" style="background-color:#ffffff;color:#337ab7;border-left:1px solid #dadada;border-right:1px solid #dadada;border-top:1px solid #dadada;">Cuenta</button>'+
                                     '</div>'+
@@ -139,10 +149,11 @@ let LocationsView = customization.extend(NomadView, {
                                     '<div id="contenidoCuenta" style="padding: 10px;">'+
                                     '<img style="float: left; margin: 0px 15px 15px 0px;" src="'+urlImage+'" width="100">'+
                                     '<p>Nombre del cliente:: <a href="#Accounts/'+definicionCuenta.id+'"target="_blank"> '+definicionCuenta.name+'</a></p>'+
+                                    contenidoEstrellas+
                                     '<p>País: <b> '+App.lang.getAppListStrings('countries_dom')[definicionCuenta.pais]+'</b></p>'+
                                     '<p>RFC: <b> '+definicionCuenta.tct_rfc_c+'</b></p>'+
                                     '<p>Tipo de empresa: <b> '+definicionCuenta.tipo_empresa+'</b></p>'+
-                                    '<p>Actividad preponderante:'+definicionCuenta.tct_actpreponderante_c+'</p>'+            
+                                    '<p>Teléfono móvil:'+definicionCuenta.phone_alternate+'</p>'+            
                                     '</div>'+
                                     '</div>';
 
